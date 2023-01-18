@@ -1,14 +1,11 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import Navabar from './Navabar.vue'
-import Footer from './Footer.vue'
-import Vue from 'vue'
-import Component from 'vue-class-component'
-import Router from 'vue-router'
-import router from './router'
+import { createApp } from "vue";
+import App from "./App.vue";
+import router from "./router";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
+library.add(faPhone);
 
-
-
-createApp(App).use(router).mount('#app')
-
+createApp(App)
+  .use(router)
+  .mount("#app");
