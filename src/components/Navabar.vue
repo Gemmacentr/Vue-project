@@ -2,8 +2,8 @@
   <header>
     <ul class="nav">
       <li>
-        <router-link to="/home">
-          <i class="fas fa-home fa-3x home">
+        <router-link to="/">
+          <i class="fa fa-home fa-3x">
             <div class="circle"></div>
           </i>
           <div class="title">Home</div></router-link
@@ -11,7 +11,7 @@
       </li>
       <li>
         <router-link to="/categories">
-          <i class="fas fa-headphones fa-3x">
+          <i class="fa fa-headphones fa-3x">
             <div class="circle"></div>
           </i>
           <div class="title">Categories</div>
